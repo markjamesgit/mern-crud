@@ -2,7 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import { connectDB } from './config/db.js';
 import path from 'path';
-import { fileURLToPath } from 'url'; // ✅ for ES Modules
+import { fileURLToPath } from 'url'; 
 import { dirname } from 'path';
 
 import productRoutes from './routes/product.route.js';
